@@ -63,7 +63,7 @@ export default function CourseTutorial() {
               onClick={prevLesson}
               disabled={currentLesson === 0}
             >
-              ⬅ Previous
+              Previous
             </button>
 
             <span className="align-self-center fw-bold">
@@ -75,7 +75,7 @@ export default function CourseTutorial() {
               onClick={nextLesson}
               disabled={currentLesson === lessons.length - 1}
             >
-              Next ➡
+              Next
             </button>
           </div>
         </div>

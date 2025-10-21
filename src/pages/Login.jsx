@@ -8,7 +8,7 @@ export default function Login() {
     // For demo purposes, storing user info in localStorage (not secure for real apps)
     localStorage.setItem("user", username);
     localStorage.setItem("password", password);  // Storing password is not recommended in production
-    window.location.href = "/profile"; // redirect
+    window.location.href = "/"; // redirect
   }
 
   return (
